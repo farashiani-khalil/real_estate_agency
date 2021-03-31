@@ -109,4 +109,5 @@ class Buy(models.Model):
     updated = models.DateTimeField(default=timezone.now)
     status = models.BooleanField(default=False)
     code_domain = models.IntegerField(default=0)
+    for_exchange = models.BooleanField(default=False)
 
